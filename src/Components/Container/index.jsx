@@ -1,14 +1,15 @@
 import React from "react";
-
-import Titulo from "../Titulo";
-import Conta from "../Conta";
+import Subtitle from "../Subtitle";
+import Title from "../Title";
+import Account from "../Account";
 
 const Container = () => {
   return (
     <div className="container">
-      <Titulo>Olá Fulano!</Titulo>
-      <section className="conteudo">
-        <Conta />
+      <Title>Hi, there!</Title>
+      <Subtitle>Welcome back!</Subtitle>
+      <section className="content">
+        <Account/>
       </section>
     </div>
   );
