@@ -1,12 +1,12 @@
 import React from "react";
 
-import Cabecalho from "./Components/Cabecalho";
+import BankHeader from "./Components/BankHeader";
 import Container from "./Components/Container";
 
 function App() {
   return (
     <>
-      <Cabecalho />
+      <BankHeader />
       <Container />
     </>
   );

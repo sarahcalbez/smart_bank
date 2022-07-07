@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
 import privado from "../../assets/images/privado.svg";
-import olho_icone from "../../assets/images/olho.svg";
+import eye_icon from "../../assets/images/eye.svg";
 import dinheiro from "../../assets/images/dinheiro.svg";
 
-const Conta = () => {
+const Account = () => {
   const [toggleState, untoggle] = useState(true);
 
   const toggleHandler = () => {
@@ -13,15 +13,15 @@ const Conta = () => {
 
   return (
     <div className="box">
-      <h2>Conta</h2>
+      <h2>Account</h2>
       <div style={{ fontSize: "26px", padding: "20px 0" }}>
-        Saldo disponível{" "}
+        Current balance{" "}
         <span>
-          <img className="imagem-icone" src={dinheiro} alt="Ícone Saldo" />
+          <img className="img-icone" src={dinheiro} alt="Balance Icon" />
         </span>
         {toggleState ? (
-          <div className="saldo">
-            <span className="detalhe">R$</span> 0,00{" "}
+          <div className="balance">
+            <span className="detail">R$</span> 0,00{" "}
           </div>
         ) : null}
       </div>
@@ -29,13 +29,13 @@ const Conta = () => {
       <button className="btn" onClick={toggleHandler}>
         <img
           style={{ marginTop: "2px" }}
-          className="imagem-icone"
-          src={toggleState ? privado : olho_icone}
-          alt="Privacidade do Saldo"
+          className="img-icone"
+          src={toggleState ? privado : eye_icon}
+          alt="Balance privacy"
         />
       </button>
     </div>
   );
 };
 
-export default Conta;
+export default Account;

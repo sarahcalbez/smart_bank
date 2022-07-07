@@ -9,7 +9,7 @@
   color: grey;
 }
 
-.btn-primario {
+.first-btn {
   text-align: center;
   border-radius: 3px;
   padding: 5px 20px;
@@ -21,7 +21,7 @@
   background: transparent;
 }
 
-.btn-secundario {
+.second-btn {
   text-align: center;
   border-radius: 3px;
   padding: 5px 20px;
@@ -33,12 +33,7 @@
   color: #41d3be;
 }
 
-.titulo {
-  color: grey;
-  padding: 25px 0;
-}
-
-.cabecalho {
+.bank-header {
   background-color: #41d3be;
   display: flex;
   justify-content: space-between;
@@ -50,21 +45,21 @@
 .container {
   background-color: #f1f1f1;
   min-height: 90vh;
-  padding: 0px 15vw;
+  padding: 20px 15vw;
 }
 
-.conteudo {
+.content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.imagem-logo {
+.img-logo {
   height: 50px;
   width: 50px;
 }
 
-.imagem-icone {
+.img-icone {
   height: 25px;
   width: 25px;
 }
@@ -93,12 +88,12 @@
   width: 48%;
 }
 
-.saldo {
+.balance {
   font-weight: 700;
   font-size: 32px;
 }
 
-.detalhe {
+.detail {
   color: #41d3be;
   font-size: 24px;
 }
@@ -109,7 +104,7 @@
     margin: 5px;
   }
 
-  .conteudo {
+  .content {
     flex-direction: column;
   }
 }
