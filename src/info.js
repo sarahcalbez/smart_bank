@@ -1,39 +1,39 @@
-export const extratoLista = {
+export const extractList = {
   updates: [
     {
       id: "123131321",
-      type: "Restaurante",
+      type: "Restaurant",
       value: "150,00",
-      date: "11 JUN",
+      date: "JUN 11",
       from: "Bonna Parma",
     },
     {
       id: "4564654",
-      type: "Utilidades",
+      type: "Utilities",
       value: "130,00",
-      date: "9 JUN",
+      date: "JUN 09",
       from: "CPFL *energia",
     },
     {
       id: "65445",
-      type: "Saude",
+      type: "Health",
       value: "15,00",
-      date: "8 JUN",
+      date: "JUN 08",
       from: "Farma Ponte",
     },
     {
       id: "656565",
-      type: "Transporte",
+      type: "Transport",
       value: "15,00",
-      date: "8 JUN",
+      date: "JUN 08",
       from: "Uber",
     },
 
     {
       id: "926544",
-      type: "Outros",
+      type: "Other",
       value: "150,00",
-      date: "5 JUN",
+      date: "JUN 05",
       from: "AliExpress",
     },
   ],
